@@ -2,7 +2,7 @@ name: Daily Weather Bot
 
 on:
   schedule:
-    - cron: '0 22 * * *'  # 한국 시간 매일 오전 8시 (UTC 23:00)
+    - cron: '17 21 * * *'
   workflow_dispatch:      # 수동 실행 버튼 활성화
 
 jobs:
